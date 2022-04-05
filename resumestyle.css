@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600&family=Quicksand:wght@400;500&family=Roboto:wght@300;400;500;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body {
+  background-color: azure;
+  padding: 20px;
+}
+/*******Media query************/
+/***************************/
+
+@media (max-width: 900px) {
+  .address {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 400px) {
+  .address {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 390px) {
+  .address {
+    margin-left: -5px;
+  }
+}
+/* @media only screen and (max-device-width: 1200px) {
+  .address {
+    text-align: left;
+  }
+  .address-main {
+    text-align: start;
+  }
+  .address-main-2 {
+    margin-left: -50px !important;
+  }
+} */
+
+/******sections********/
+.sec-1 {
+  background-color: hsl(245, 38%, 49%);
+  /* background-color: hsl(245, 45%, 42%); */
+  padding: 35px !important;
+  color: whitesmoke;
+}
+.sec-2 {
+  /* background-color: rgba(224, 213, 213, 0.842); */
+  background-color: rgba(245, 245, 245, 0.384);
+  padding-left: 40px !important;
+  padding-top: 35px !important;
+  padding-bottom: 35px;
+}
+
+/******************************/
+/**********SECTION-1*********/
+/******************************/
+/************** ABOUT ME************
+********************************/
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: 25px;
+}
+
+.sec-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-aboutme {
+  margin-top: 20px;
+}
+.name {
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 0.719);
+}
+
+.position {
+  font-size: 18px;
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  margin-top: 13px;
+}
+
+/******Objective******/
+.sec-obj {
+  margin-top: 40px;
+}
+.objective {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.644);
+  margin-bottom: 10px;
+}
+.objective-desc {
+  margin-left: 15px;
+  font-size: large;
+  line-height: 28px;
+}
+
+/***************CONTACT
+*****************************************/
+.sec-contact {
+  margin-top: 65px;
+  padding-left: 20px;
+}
+.address {
+  text-align: start;
+}
+.address p {
+  margin-right: 60px;
+}
+.address-main {
+  margin-bottom: 5px !important;
+}
+.address-main-2 {
+  text-align: left;
+}
+.att-p {
+  margin-bottom: 0;
+}
+.sec-contact p {
+  font-size: 19px;
+  /* margin-bottom: 25px; */
+  line-height: 30px;
+}
+.contact {
+  font-size: 23px;
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: bold;
+  margin-left: -27px;
+  color: rgba(255, 255, 255, 0.644);
+  margin-bottom: 18px;
+}
+
+/* i {
+  font-size: medium;
+} */
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-size: 40px;
+  margin-bottom: 15px;
+  margin-top: 80px;
+  margin-left: -20px;
+}
+
+/******************************/
+/**********SECTION-2*********/
+/******************************/
+
+/****Education***/
+.education {
+  font-size: 23px;
+  color: hsl(245, 39%, 45%);
+  margin-bottom: 18px;
+}
+.edu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.edu-list p {
+  margin-bottom: 10px;
+}
+
+.university {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.highschool {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.highstandard {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.year {
+  font-size: large;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  /* font-weight: bold; */
+}
+
+.institute {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.course {
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.board {
+  font-size: medium;
+  font-weight: 400;
+}
+
+/************SKILL SECTION*******************/
+/*******************************/
+
+.skills-sec {
+  padding-left: 30px;
+  margin-top: 35px;
+}
+.skills-sec .education {
+  margin-left: -25px;
+}
+
+.progress {
+  width: 40%;
+  background-color: hwb(0 38% 34% / 0.507) !important;
+}
+
+.skill-name {
+  font-size: large;
+  font-family: "Dosis", sans-serif;
+  margin-top: 19px;
+}
+
+/******PROJECT SECTION*******/
+/*************/
+.project-sec {
+  margin-top: 50px;
+}
+.project-sec .skill-name {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.project-name {
+  margin-top: 10px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+}
+
+/********LANGUAGES*************/
+/*********************/
+.language-sec {
+  margin-top: 33px;
+}
+.language-sec span {
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+}
+
+/*****HOBBIES SECTION******/
+/***********/
+.hobbies-sec {
+  margin-top: 33px;
+}
+.hobbies-sec span {
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+}
